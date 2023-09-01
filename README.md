@@ -46,19 +46,26 @@ php artisan serve
 
 8. Agora, sua API estará disponível em http://localhost:8000.
 
-## Uso da API (API Usage)
+# Uso da API (API Usage)
 A API oferece os seguintes endpoints (The API offers the following endpoints):
 
 GET /api/users: Lista todos os usuários (List all users).
+
 POST /api/users: Cria um novo usuário com campos criptografados (Create a new user with encrypted fields).
+
 GET /api/users/{id}: Obtém os detalhes de um usuário específico (Get details of a specific user).
+
 PUT /api/users/{id}: Atualiza um usuário existente (Update an existing user).
+
 DELETE /api/users/{id}: Exclui um usuário existente (Delete an existing user).
+
 Certifique-se de formatar suas solicitações corretamente e tratar as respostas de acordo com os códigos de status HTTP retornados pela API (Make sure to format your requests correctly and handle responses according to the HTTP status codes returned by the API).
 
-Requisitos de Segurança (Security Requirements)
+# Requisitos de Segurança (Security Requirements)
+
 Certifique-se de proteger suas chaves de API e informações sensíveis. Use HTTPS em ambientes de produção e aplique autenticação adequada, se necessário (Ensure to protect your API keys and sensitive information. Use HTTPS in production environments and apply proper authentication if needed).
 
-Contribuição (Contribution)
+# Contribuição (Contribution)
+
 Sinta-se à vontade para contribuir para este projeto, abrindo problemas, enviando solicitações pull ou melhorando a documentação (Feel free to contribute to this project by opening issues, submitting pull requests, or improving the documentation).
 
